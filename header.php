@@ -47,8 +47,7 @@
                         </div>
                         <div class="header__contacts-item">
                             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/svg/pointer.svg" alt="указатель" class="header__contacts-logo">
-                            <address>ул. Василисы Кожиной, 1<br>
-                                Москва, Россия, 121096</address>
+                            <?php the_field('your_address', 2); ?>
                         </div>
                     </div>
                 </div>
