@@ -25,7 +25,7 @@ get_header();
         $posts = get_posts(array(
             'numberposts' => 3,
             'category_name' => 'soft_toys',
-            'orderby' => 'date',
+            'orderby' => 'rand',
             'order' => 'ASC',
             'post_type' => 'post',
             'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
@@ -44,7 +44,7 @@ get_header();
                 <div class="toys__item-info">
                     <div class="toys__item-title"><?php the_title(); ?></div>
                     <div class="toys__item-descr">
-                        <?php the_field('toys_descr'); ?>
+                        <?php the_field('toys_desrc') ?>
                     </div>
                     <a href="<?php echo get_permalink(); ?>" class="minibutton toys__trigger">Подробнее</a>
                 </div>

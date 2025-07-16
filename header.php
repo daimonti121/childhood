@@ -17,7 +17,7 @@
     <link rel="apple-touch-icon" sizes="120x120" href="<?php echo bloginfo('template_url'); ?>/assets/img/favicons/apple-touch-icon-120x120.png">
     <link rel="apple-touch-icon" sizes="144x144" href="<?php echo bloginfo('template_url'); ?>/assets/img/favicons/apple-touch-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo bloginfo('template_url'); ?>/assets/img/favicons/apple-touch-icon-180x180.png">
-    <link rel="stylesheet" href="./styles/main.min.css">
+    <link rel="stylesheet" href="./assets/styles/main.min.css">
     <?php
         wp_head();
     ?>
@@ -66,24 +66,7 @@
                     'depth'           => 0,               // (integer) Глубина вложенности (0 - неограничена, 2 - двухуровневое меню)
                     'walker'          => '',              // (object) Класс собирающий меню. Default: new Walker_Nav_Menu
                     ));
-                ?>
-                <!-- <ul class="header__nav">
-                    <li>
-                        <a class="header__nav-item" href="#about">Про компанию</a>
-                    </li>
-                    <li>
-                        <a class="header__nav-item" href="#specialists">Наша команда</a>
-                    </li>
-                    <li>
-                        <a class="header__nav-item" href="#toys">Игрушки</a>
-                    </li>
-                    <li>
-                        <a class="header__nav-item" href="#aboutus">Наша история</a>
-                    </li>
-                    <li>
-                        <a class="header__nav-item" href="#contacts">Контакты и отзывы</a>
-                    </li>
-                </ul> -->
+                ?>                
             </nav>
         </div>
         <div class="header__hamburger">

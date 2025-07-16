@@ -1,3 +1,20 @@
-h1 {
-    color: red;
+.wp-block-image {
+    margin-top: 40px;
 }
+
+.entry-content > p {
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 40px;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.toys__item > .toys__item-info {
+        width: 100%;
+}
+
+.toys__item:hover .toys__item-info {
+    width: 100%;
+}
+
