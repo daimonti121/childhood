@@ -18,3 +18,13 @@
     width: 100%;
 }
 
+.solo-page {
+    display: flex;
+    height: 60vh;
+    width: 100%;
+}
+
+.solo-page .subtitle {
+    text-align: center;
+    margin-top: 50px;
+}
